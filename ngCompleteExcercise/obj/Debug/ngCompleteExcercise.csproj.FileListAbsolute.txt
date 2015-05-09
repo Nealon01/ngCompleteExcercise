@@ -1,0 +1,12 @@
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll.config
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.pdb
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.csprojResolveAssemblyReference.cache
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.dll
+c:\users\nealon\documents\visual studio 2013\Projects\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.pdb
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll.config
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.pdb
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.csprojResolveAssemblyReference.cache
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.dll
+D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.pdb
