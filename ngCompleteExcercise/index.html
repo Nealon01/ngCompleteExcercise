@@ -4,25 +4,27 @@
     <title>ngComplete Excercise</title>
 </head>
 <body data-ng-controller="completeController">
-    
+
     <form id="form" role="form">
         <div class="form-group move-down">
             <label>Autocomplete Model</label>
-            <input type="text" ng-model="autocomplete" ng-autocomplete details="details"/>
-            <br>
-
-            <b>autocomplete</b>: {{autocomplete}}
-            <br><br>
-            <!--<b>details (formatted address)</b>: {{details.address_components}}
-            <br><br>-->
-
+            <input type="text" ng-model="autocomplete" ng-autocomplete details="details" /><br><br>
+            <!--<b>details (formatted address)</b>: {{details.address_components}}<br>-->
+            
             <b hidden>{{update(details)}}</b>
 
-            Number: <input type="text" ng-model="address.number"/><br>
+            Number: <input type="text" ng-model="address.number" /><br>
             Street Address: <input type="text" ng-model="address.street" /><br>
             City: <input type="text" ng-model="address.city" /><br>
             State: <input type="text" ng-model="address.state" /><br>
             Zip: <input type="text" ng-model="address.zip" /><br>
+
+            <br>
+            <div ng-show="details" ng-repeat="item in items">
+                <label><input type="radio" name="codes" ng-model="$parent.rad" ng-value="item">{{item}}</label>
+            </div>
+
+			{{rad}}
         </div>
     </form>
 

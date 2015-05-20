@@ -4,6 +4,8 @@
 
     $scope.update = function(details)
     {
+        $scope.items = [1,2,3,4];
+
         $scope.info = details.address_components;
         $scope.members = details.address_components.length;
 
