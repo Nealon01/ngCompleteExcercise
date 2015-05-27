@@ -1,0 +1,7 @@
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\bin\Debug\Test.rxtmg
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\bin\Debug\Test.rxtst
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\bin\Debug\Test.exe.config
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\bin\Debug\Test.exe
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\bin\Debug\Test.pdb
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\obj\x86\Debug\Test.exe
+C:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\obj\x86\Debug\Test.pdb

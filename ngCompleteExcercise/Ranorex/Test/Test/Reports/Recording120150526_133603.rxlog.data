@@ -1,0 +1,220 @@
+﻿<report>
+	<activity
+	user="Nealon"
+	host="AANG"
+	rxversion="5.3.2.23378"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="5/26/2015 1:36:08 PM"
+	timestampiso="2015-05-26T17:36:08"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="d62c0d3c85d7cc2"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Attribute 'Visible' of element for item 'TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading' does not match the specified value (actual='False', expected='True').
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.515"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site 'http://wikipedia.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.640"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Wikipedia.English' at 22;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']/div[1]//strong[@innertext='English']"
+			fullname="TestRepository.Wikipedia.English"
+			id="3386625332d54848a9721043a78b348b"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.994"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'WikipediaTheFreeEncyclopedia.SearchInput' at 28;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//input[#'searchInput']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.SearchInput"
+			id="ce1ffff2da0b4ab992b5b8ec33e75ae7"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.144"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'google' with focus on 'WikipediaTheFreeEncyclopedia.SearchInput'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//input[#'searchInput']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.SearchInput"
+			id="ce1ffff2da0b4ab992b5b8ec33e75ae7"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.159"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Down}{Return}' with focus on 'WikipediaTheFreeEncyclopedia.SearchInput'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//input[#'searchInput']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.SearchInput"
+			id="ce1ffff2da0b4ab992b5b8ec33e75ae7"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.772"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (Valid='True') on item 'WikipediaTheFreeEncyclopedia.FirstHeading'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading"
+			id="cd424e2a3a7740e68422d13e25f92244"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.942"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'Valid' of element for item 'TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading"
+			id="cd424e2a3a7740e68422d13e25f92244"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="103"
+			loglvl="Success"
+			itemindex="5"/>
+		</item>
+		<item
+		time="00:06.101"
+		level="Info"
+		category="Validation"
+		errimg=".\Recording120150526_133603_cb0e3019_trace.jpg"
+		errthumb=".\Recording120150526_133603_cb0e3019_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'WikipediaTheFreeEncyclopedia.FirstHeading'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading"
+			id="cd424e2a3a7740e68422d13e25f92244"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="106"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.353"
+		level="Failure"
+		category="Validation"
+		errimg=".\Recording120150526_133603_a08016a1_trace.jpg"
+		errthumb=".\Recording120150526_133603_a08016a1_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading"
+			id="cd424e2a3a7740e68422d13e25f92244"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="107"
+			loglvl="Failure"
+			itemindex="6"/>
+		</item>
+		<item
+		time="00:06.454"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150526_133603_08c922ee_trace.jpg"
+		errthumb=".\Recording120150526_133603_08c922ee_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at Test.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs:line 107
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="107"
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.FirstHeading"
+			id="cd424e2a3a7740e68422d13e25f92244"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="6"/>
+		</item>
+	</activity>
+</report>

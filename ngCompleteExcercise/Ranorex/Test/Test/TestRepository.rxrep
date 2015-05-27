@@ -1,0 +1,280 @@
+﻿<repository
+name="TestRepository"
+id="7f1dbd67-0768-4e47-aaad-3074d1969c98"
+rxversion="5.3.2.23378">
+	<codegen
+	classname="TestRepository"
+	namespace="Test"/>
+	<rootfolder
+	name="Root"
+	id="f63fe81a-bfba-4ad2-81c1-a9440ddf1ed9"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="WikipediaGoogleChrome"
+		id="2b88dda0-03ac-408d-880a-1c8df3582c35"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Wikipedia - Google Chrome']"
+		addcaps="form,nativewindow"
+		refimgid="4115da88-a344-4783-87e5-efc1fb57d2f9"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Element585175240"
+			id="b9fe134f-c53c-44fb-9f00-f904bb787827"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='Wikipedia - Google Chrome']/element[@controlid='585175240']"
+			addcaps="unknown,nativewindow"
+			refimgid="17f5463a-6929-4028-8285-751ed4f47503">
+				/form[@title='Wikipedia - Google Chrome']/element[@controlid='585175240']
+			</item>
+			<item
+			name="Element172300560"
+			id="6d4b5af3-3422-4fb6-8b10-e834a813312c"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='Wikipedia - Google Chrome']/element[@controlid='172300560']"
+			addcaps="unknown,nativewindow"
+			refimgid="e848e492-bb02-4f51-85b6-2b4c77545882">
+				/form[@title='Wikipedia - Google Chrome']/element[@controlid='172300560']
+			</item>
+			<basepath>
+				/form[@title='Wikipedia - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKeSURBVDhPrZNdSJNRGMffEs2sMFvTEkMwt7Rs
+9so+3m3tdUxwX3qRXWhJRtkugq4sqwtv0sCbQEIaIhFohqRphboMNz+I0Vh+bOo0tLbWpqATKaIo
+2Px3fFmoIEHQHx4OHJ7/7znPc86h/rvmWDE9b1BZvWVa+C8Y4CvX4+MZDeYKpFaPXERH07bXTI7A
+PCvLxYcCGUKleqycN5LVgOUSLeZVefDkZmNScNQcTd+qhZhk80x6OoJyCRZYBgsaBRbVDBZZGRaV
+DIISKQIiGi5+GibiDm+FiDvltMkkxNIhAQJZx+EXChE4korVinMIndXCx6bAp8qAVyWETynARBYf
+nrLEjXaYdoXtVB+L3hMZ+MxLw1K+BliLwLEKOL+AaA2ro2KE7Hvw1Z2IkJPCspOyRe0UpWiTQzdi
+RPlNGh4qdt2BkuZZVLbMwtT6HlVP/RwEkxQi07GITMUjNEIhaqco5WM5igb0UA8WouViMfrmw2Dr
+3qK0cYzEONR1DnSOEYZfjbB7J8KTBDC8CSB/xKD4tR66gUJc77qCHtcPCG8MQllrx2kSwuohtDrC
+WwBLtk0AWZMMRf16GPu1YPsYrgX+5Q4cMHWCR2J/5XNuDy6KmOM4QNASswEQN0hsqidKDqK1aHDV
+fonLb7cG0GYL4jsp/s1zEmtuMgPS/8rwDni7d28MUVQrpqX3pSjq0ZFT6DhIfi+DmolqXHtzC3fb
++cD0evVd+DW+D5+64+Fp2XSN68q5Q5slBGJ8QSAWPQykHc2rQpQ8U5DpxwDuBPx0JsHblQD3w4Pb
+v8asGtpM14uhbCLX2qWDrMOIqaE0RBw8BF7uJVWT8O5ByvbmP8qsEtHHbudaM2vyUFGfDV9zEkYb
+k+FoSLHa76X+/TP9uyjqN7VXpWEUY74GAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<item
+		name="WikipediaTheFreeEncyclopediaGoogl"
+		id="9439216c-9c64-41e9-8cb1-e76d446d9cc9"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		refimgid="dc772919-4eae-405c-b34d-280dfe24aef0">
+			/form[@title~'^Wikipedia,\ the\ free\ encyc']
+		</item>
+		<appfolder
+		name="Explorer"
+		id="53683597-4a7a-4af6-a536-f868593a50ed"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TestRanorexStudioAdministrator"
+			id="8b8dda85-4a81-4736-91cb-8adeae9386aa"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^Test\ -\ Ranorex\ Studio\ \(Ad']"
+			addcaps="button,accessible"
+			refimgid="f19e7468-1474-4190-ba4e-f318fb438167">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Test\ -\ Ranorex\ Studio\ \(Ad']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Wikipedia"
+		id="23d10f1b-529f-4ae4-80e5-807a313facea"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.wikipedia.org']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="English"
+			id="33866253-32d5-4848-a972-1043a78b348b"
+			searchtimeout="30000ms"
+			capname="strongtag"
+			refpath="/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']/div[1]/div[2]/a/strong[@innertext='English']"
+			addcaps="unknown,webelement,strongtag"
+			refimgid="0d119718-2cef-40e9-8719-bb5fc6c1ca87">
+				/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']/div[1]//strong[@innertext='English']
+			</item>
+			<item
+			name="EnglishWikipediaTheFreeEncyclopedi"
+			id="1fb34d99-4dfc-4b2b-a783-b160123c290f"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']/div[1]/div[2]/a[@title~'^English\ —\ Wikipedia\ —\ The']"
+			addcaps="unknown,webelement,atag"
+			refimgid="029503fd-f3c9-4338-b6bd-9d61313588c5">
+				/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']//a[@title~'^English\ &#8212;\ Wikipedia\ &#8212;\ The']
+			</item>
+			<basepath>
+				/dom[@domain='www.wikipedia.org']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="WikipediaTheFreeEncyclopedia"
+		id="e8aa1721-3c88-473f-9f9b-48699c87bb6d"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='en.wikipedia.org']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="SearchInput"
+			id="ce1ffff2-da0b-4ab9-92b5-b8ec33e75ae7"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='en.wikipedia.org']//input[#'searchInput']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2aaee680-34fb-42f1-a5b7-148302f6a819">
+				/dom[@domain='en.wikipedia.org']//input[#'searchInput']
+			</item>
+			<item
+			name="FirstHeading"
+			id="cd424e2a-3a77-40e6-8422-d13e25f92244"
+			searchtimeout="30000ms"
+			capname="h1tag"
+			refpath="/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']"
+			addcaps="unknown,webelement,h1tag"
+			refimgid="8b7e660b-97c9-4ccb-85bc-134509cfc946">
+				/dom[@domain='en.wikipedia.org']//h1[#'firstHeading']
+			</item>
+			<item
+			name="LogoGoogle2013OfficialSvg"
+			id="410eacb1-8579-4c61-a8d8-5762fbef8c54"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='en.wikipedia.org' and @caption~'^Google\ -\ Wikipedia,\ the\ f']//div[#'mw-content-text']/table[1]/tbody/tr[1]/td/a/img[@alt~'^Logo\ Google\ 2013\ Official']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="eabfd01c-4101-4eed-9268-90a3435c05c9">
+				/dom[@domain='en.wikipedia.org']//div[#'mw-content-text']/table[1]/tbody/tr[1]//img[@alt~'^Logo\ Google\ 2013\ Official']
+			</item>
+			<item
+			name="GuidanceOnHowToUseAndEditWikipedi"
+			id="740f0747-bcbe-4a02-90e1-d87f59af4d9b"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[3]//li[#'n-help']/a[@innertext='Help']"
+			addcaps="unknown,webelement,atag"
+			refimgid="2ee4efc0-e1f8-452b-91d1-274526707122">
+				/dom[@domain='en.wikipedia.org']//li[#'n-help']/a[@innertext='Help']
+			</item>
+			<item
+			name="WikipediaFAQ"
+			id="df951c30-df44-4bd8-9b51-e0cf662d8d45"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='en.wikipedia.org' and @caption~'^Help:Contents\ -\ Wikipedia']//div[#'mw-content-text']/table[2]/tbody/tr[5]/td[2]/table[1]/tbody/tr[1]/td/b/a[@innertext~'^Frequently\ Asked\ Question']"
+			addcaps="unknown,webelement,atag"
+			refimgid="1fcfa1ae-7a52-4576-ae8a-c1dfb791b5a5">
+				/dom[@domain='en.wikipedia.org']//div[#'mw-content-text']/table[2]/tbody/tr[5]/td[2]/table[1]//b[@innertext='Search ']/a[@innertext~'^Frequently\ Asked\ Question']
+			</item>
+			<basepath>
+				/dom[@domain='en.wikipedia.org']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,94 @@
+﻿<report>
+	<activity
+	user="Nealon"
+	host="AANG"
+	rxversion="5.3.2.23378"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="5/26/2015 1:32:56 PM"
+	timestampiso="2015-05-26T17:32:56"
+	module="Recording2"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1615aaa771891af7"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording2
+		</detail>
+		<errmsg>
+			Failed to find item 'TestRepository.WikipediaGoogleChrome.Element585175240'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.582"
+		level="Info"
+		category="Website"
+		errimg=".\Recording220150526_133249_43d5552d_trace.jpg"
+		errthumb=".\Recording220150526_133249_43d5552d_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://wikipedia.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording2.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.705"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording220150526_133249_1d8026d6_trace.jpg"
+		errthumb=".\Recording220150526_133249_1d8026d6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WikipediaGoogleChrome.Element585175240' at 572;106.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Wikipedia - Google Chrome']/element[@controlid='585175240']"
+			fullname="TestRepository.WikipediaGoogleChrome.Element585175240"
+			id="b9fe134fc53c44fb9f00f904bb787827"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording2.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:00.958"
+		level="Error"
+		category="Module"
+		errimg=".\Recording220150526_133249_d1fb94e2_trace.jpg"
+		errthumb=".\Recording220150526_133249_d1fb94e2_trace_thumb.jpg">
+			<message>
+				Failed to find item 'TestRepository.WikipediaGoogleChrome.Element585175240'.<br/>No element found for path '/form[@title='Wikipedia - Google Chrome']/element[@controlid='585175240']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Test.TestRepositoryFolders.WikipediaGoogleChromeAppFolder.get_Element585175240() in c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\TestRepository.cs:line 168
+   at Test.Recording2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording2.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording2.cs"
+			codeline="87"
+			type="repoitem"
+			path="/form[@title='Wikipedia - Google Chrome']/element[@controlid='585175240']"
+			fullname="TestRepository.WikipediaGoogleChrome.Element585175240"
+			id="b9fe134fc53c44fb9f00f904bb787827"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="1"/>
+		</item>
+	</activity>
+</report>

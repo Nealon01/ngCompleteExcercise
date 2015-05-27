@@ -1,0 +1,136 @@
+﻿<report>
+	<activity
+	user="Nealon"
+	host="AANG"
+	rxversion="5.3.2.23378"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="5/26/2015 1:40:04 PM"
+	timestampiso="2015-05-26T17:40:04"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="5e3f2f456c32590"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:01.281"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site 'http://wikipedia.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.531"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Wikipedia.EnglishWikipediaTheFreeEncyclopedi' at 86;22.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='www.wikipedia.org']//body[#'www-wikipedia-org']//a[@title~'^English\ —\ Wikipedia\ —\ The']"
+			fullname="TestRepository.Wikipedia.EnglishWikipediaTheFreeEncyclopedi"
+			id="1fb34d994dfc4b2ba783b160123c290f"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.547"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'WikipediaTheFreeEncyclopedia.GuidanceOnHowToUseAndEditWikipedi' at 9;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//li[#'n-help']/a[@innertext='Help']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.GuidanceOnHowToUseAndEditWikipedi"
+			id="740f0747bcbe4a0290e1d87f59af4d9b"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.146"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Scroll Vertical by -5280 units.
+			</message>
+			<metainfo
+			itemindex="3"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="94"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.779"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'WikipediaTheFreeEncyclopedia.WikipediaFAQ' at 35;5.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='en.wikipedia.org']//div[#'mw-content-text']/table[2]/tbody/tr[5]/td[2]/table[1]//b[@innertext='Search ']/a[@innertext~'^Frequently\ Asked\ Question']"
+			fullname="TestRepository.WikipediaTheFreeEncyclopedia.WikipediaFAQ"
+			id="df951c30df444bd89b51e0cf662d8d45"
+			timeout="60000"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.454"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Scroll Vertical by -1320 units.
+			</message>
+			<metainfo
+			itemindex="5"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="102"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.060"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Scroll Vertical by 2400 units.
+			</message>
+			<metainfo
+			itemindex="6"
+			codefile="c:\Users\Nealon\Desktop\CloudPCR\OSR\LRAP-OSR\Ranorex\Test\Test\Recording1.cs"
+			codeline="106"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>
