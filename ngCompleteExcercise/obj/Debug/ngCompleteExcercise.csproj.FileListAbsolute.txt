@@ -10,3 +10,9 @@ D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExce
 D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.csprojResolveAssemblyReference.cache
 D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.dll
 D:\Documents\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.pdb
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll.config
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.dll
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\bin\ngCompleteExcercise.pdb
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.csprojResolveAssemblyReference.cache
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.dll
+C:\Users\Nealon\Desktop\CloudPCR\ngCompleteExcercise\ngCompleteExcercise\obj\Debug\ngCompleteExcercise.pdb
